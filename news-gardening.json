@@ -1,0 +1,33 @@
+{
+  "data": [{
+    "type": "articles",
+    "id": "1",
+    "attributes": {
+      "title": "JSON:API paints my bikeshed!",
+      "descrition": "Lorem ipsum dolor",
+      "url": "",
+    },
+    "relationships": {
+      "sources": {
+        "data": { "type": "sources", "id": "9" }
+      },
+      "bundles": {
+        "data": { "type": "bundles", "id": "12" }
+      }
+    }
+  }],
+  "included": [{
+    "type": "sources",
+    "id": "9",
+    "attributes": {
+      "name": "My gardening jurnal",
+      "url": ""
+    }
+  }, {
+    "type": "bundles",
+    "id": "12",
+    "attributes": {
+      "title": "Gardening Digest #1"
+    }
+  }]
+}
