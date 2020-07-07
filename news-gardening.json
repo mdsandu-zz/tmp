@@ -3,16 +3,54 @@
     "type": "articles",
     "id": "1",
     "attributes": {
-      "title": "JSON:API paints my bikeshed!",
-      "description": "Lorem ipsum dolor",
-      "url": ""
+      "title": "Urlaubsfeeling auf dem Balkon",
+      "description": "Dieses Jahr ist alles anderes und unserer Urlaubspläne werden durchkreuzt. Doch ist das Zuhause bleiben wirklich so tragisch? Nun wird eben der Balkon, die Terrasse oder der Garten zum neuen Urlaubsziel!",
+      "url": "https://www.garten-fraeulein.de/blumentopf-diy/",
+      "image": "https://www.garten-fraeulein.de/wp-content/uploads/2017/05/frazoesische-kraeuter.jpg",
+      "label": "Staycation"
     },
     "relationships": {
       "source": {
         "data": { "type": "sources", "id": "9" }
       },
-      "bundle": {
-        "data": { "type": "bundles", "id": "12" }
+      "edition": {
+        "data": { "type": "editions", "id": "20200706" }
+      }
+    }
+  }, {
+    "type": "articles",
+    "id": "2",
+    "attributes": {
+      "title": "Biologischer Pflanzenschutz: 10 einfache Tipps mit großer Wirkung",
+      "description": "Um Schädlinge und Krankheiten in Schach zu halten, brauchen Sie keine Chemie. Auch mit biologischem Pflanzenschutz lassen sich die meisten Probleme im Garten lösen.",
+      "url": "https://www.mein-schoener-garten.de/gartenpraxis/pflanzenschutz/biologischer-pflanzenschutz-38445",
+      "image": "https://www.mein-schoener-garten.de/sites/default/files/styles/inline_scaled_l/public/gesteinsmehl-pflanzenschutz-12195846-dam-strauss.jpg?itok=C3I79uE0",
+      "label": "Bio Pflanzenschutz"
+    },
+    "relationships": {
+      "source": {
+        "data": { "type": "sources", "id": "10" }
+      },
+      "edition": {
+        "data": { "type": "editions", "id": "20200706" }
+      }
+    }
+  }, {
+    "type": "articles",
+    "id": "3",
+    "attributes": {
+      "title": "Im Sommer gesät, im Winter geerntet | Wintergemüse vorziehen",
+      "description": "Endet bei euch die Saison im Gemüsegarten im Herbst oder baut ihr auch Wintergemüse an?",
+      "url": "https://grüneliebe.de/im-sommer-gesaet-im-winter-geerntet-wintergemuese/",
+      "image": "https://xn--grneliebe-r9a.de/wp-content/uploads/2020/07/Wintergem%C3%BCse-im-Sommer-vorziehen-2048x1374.jpg",
+      "label": "Winterernte"
+    },
+    "relationships": {
+      "source": {
+        "data": { "type": "sources", "id": "11" }
+      },
+      "edition": {
+        "data": { "type": "editions", "id": "20200706" }
       }
     }
   }],
@@ -20,14 +58,29 @@
     "type": "sources",
     "id": "9",
     "attributes": {
-      "name": "My gardening jurnal",
-      "url": ""
+      "name": "garten-fraeulein.de",
+      "logo": "https://www.garten-fraeulein.de/wp-content/uploads/2016/02/cropped-logo_gartenfraeulein_schwarz_fett-270x270.jpg"
     }
   }, {
-    "type": "bundles",
-    "id": "12",
+    "type": "sources",
+    "id": "10",
     "attributes": {
-      "title": "Gardening Digest #1"
+      "name": "mein-schoener-garten.de",
+      "logo": "https://www.mein-schoener-garten.de/sites/default/files/branding/icon_small/logo.green_.svg"
+    }
+  }, {
+    "type": "sources",
+    "id": "11",
+    "attributes": {
+      "name": "grüneliebe.de",
+      "logo": "https://xn--grneliebe-r9a.de/wp-content/uploads/2019/05/Gr%C3%BCneliebe_Banner_800x250_neu.png"
+    }
+  }, {
+    "type": "editions",
+    "id": "20200706",
+    "attributes": {
+      "title": "The Wild Strawberry Issue",
+      "description": "a look at the Wild Wild West of Strawberries"
     }
   }]
 }
