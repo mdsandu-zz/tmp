@@ -5,7 +5,7 @@
     "attributes": {
       "title": "JSON:API paints my bikeshed!",
       "descrition": "Lorem ipsum dolor",
-      "url": "",
+      "url": ""
     },
     "relationships": {
       "sources": {
