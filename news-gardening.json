@@ -4,14 +4,14 @@
     "id": "1",
     "attributes": {
       "title": "JSON:API paints my bikeshed!",
-      "descrition": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor",
       "url": ""
     },
     "relationships": {
-      "sources": {
+      "source": {
         "data": { "type": "sources", "id": "9" }
       },
-      "bundles": {
+      "bundle": {
         "data": { "type": "bundles", "id": "12" }
       }
     }
